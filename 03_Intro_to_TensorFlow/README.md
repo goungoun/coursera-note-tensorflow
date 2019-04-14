@@ -73,7 +73,7 @@ with tf.Session() as sess:
   print a1
   print a3
 ~~~
-|constant에 소수점을 넣어서 타입을 바꿔보는 연습을 함
+> constant에 소수점을 넣어서 타입을 바꿔보는 연습을 함
 
 Heron's forumlar
 Example 1 - `tf.constant`
@@ -100,8 +100,8 @@ with tf.Session() as sess:
   print(result)
 
 ~~~
-| tf.constant에 왜 두 줄을 적었을까? 
-| 삼각형 빗변의 길이로 구성된 여러개의 데이터를 한번에 입력하고 각각의 삼각형의 면적을 한번에 구함
+> tf.constant에 왜 두 줄을 적었을까? 
+> 삼각형 빗변의 길이로 구성된 여러개의 데이터를 한번에 입력하고 각각의 삼각형의 면적을 한번에 구함
 
 Example 2 - `placeholder` and `feed_dict`
 ~~~python
@@ -116,8 +116,8 @@ with tf.Session() as sess:
     })
   print(result)
 ~~~
-| 두번째의 예시에서 placeholder & feed_dict를 사용하는 것이 type을 알 수 있어서 훨씬 안심이 되고 코드도 깔끔해짐
-| 코딩을 하면서 type을 알 수 없는 불안감을 placeholder가 보완해주고 있고 shape을 통해서 몇차원인지도 알 수 있음 
+> 두번째의 예시에서 placeholder & feed_dict를 사용하는 것이 type을 알 수 있어서 훨씬 안심이 되고 코드도 깔끔해짐
+> 코딩을 하면서 type을 알 수 없는 불안감을 placeholder가 보완해주고 있고 shape을 통해서 몇차원인지도 알 수 있음 
 
 ## How to debug
 visualize graph
@@ -142,7 +142,7 @@ with tf.Session() as sess:
 
 
 ## Quiz
-| 텐서플로우는 (exclusively) 머신러닝을 처리하기 위한 용도라고 체크했는데 수학적인 연산을 하기 위해 사용할 수 있다고 함
+> 텐서플로우는 (exclusively) 머신러닝을 처리하기 위한 용도라고 체크했는데 수학적인 연산을 하기 위해 사용할 수 있다고 함
 
 The iterative process where a TensorFlow model can crowdsource and combine model feedback from individual users is called what?
 
