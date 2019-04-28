@@ -32,7 +32,7 @@ Tensorflow + Data Lab + Big Query
 - This property to extending to unseen example is called generalization. And it's essential to ML model.
 
 ## Loss function 
-- Goal: Quantify model performance to figure out better model
+- Quantify model performance to figure out better model
 - SUM: The sum of singned error cancles each other out!
 - MSE(Mean Squared Error) : Hard to interprete. the bigger the MSE the worse the quality of the predictions
 - RMSE(Root mean square) : Use Euclidian norm -> L2
@@ -44,7 +44,8 @@ Tensorflow + Data Lab + Big Query
 > - When outliers are exponentially rare (like a bell-shaped curve), the RMSE performs very well <br>
 
 ## Gradient Descent - Direction, step size
-Use loss functions as the basis for an algorithm called gradient descent
+- Optimization as a search in parameter space
+- Walking down the surface formed by using the loss function on all the points in parameter space in search of minima
 ~~~python
 while loss is > Epsilon:
   direction = computeDirection()
