@@ -55,6 +55,8 @@ while loss is > Epsilon:
   loss = ComputeLoss()
 ~~~
 * Epsilon = A tiny constant
+> When to stop model training?
+> As soon as you start seeing your models not perform well against your validation data set, like if your loss metrics start to increase or creep up, it's time to stop.
 
 ## Repeatable Samples in BigQuery
 To make it repeatable : rand() => modulo + hash
