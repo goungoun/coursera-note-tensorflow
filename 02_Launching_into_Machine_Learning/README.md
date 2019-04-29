@@ -30,6 +30,8 @@ Tensorflow + Data Lab + Big Query
 - Critically the decision boundary is intended not just to be descriptive of the current data. 
 - It's intended to be predictive of unseen data. 
 - This property to extending to unseen example is called generalization. And it's essential to ML model.
+> (Q) When to stop model training? <br>
+> As soon as you start seeing your models not perform well against your validation data set, like if your loss metrics start to increase or creep up, it's time to stop.
 
 ## Loss function 
 - Quantify model performance to figure out better model
@@ -55,8 +57,6 @@ while loss is > Epsilon:
   loss = ComputeLoss()
 ~~~
 * Epsilon = A tiny constant
-> When to stop model training?
-> As soon as you start seeing your models not perform well against your validation data set, like if your loss metrics start to increase or creep up, it's time to stop.
 
 ## Repeatable Samples in BigQuery
 To make it repeatable : rand() => modulo + hash
