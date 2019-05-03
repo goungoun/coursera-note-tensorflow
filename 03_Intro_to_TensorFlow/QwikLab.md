@@ -1,6 +1,6 @@
 ##
 
-| data lab에서 연습한 코드를 패키징 해서 Cloud ML Engine에 배포하여  scale out하는 예시 
+> data lab에서 연습한 코드를 패키징 해서 Cloud ML Engine에 배포하여  scale out하는 예시 
 
 ##
 
