@@ -3,9 +3,9 @@
 ## Overfitting
 
 ## Occam's lazor 
-| When presented with completing hypothetical answers to a problem, 
-| one should select the one that makes |the fewest assumptions.
-| from. wikipedia
+> When presented with completing hypothetical answers to a problem, 
+> one should select the one that makes |the fewest assumptions.
+> from. wikipedia
 
 ## Regularization is a major field of ML research
 - Early Stopping
