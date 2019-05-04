@@ -3,9 +3,9 @@
 ## Overfitting
 
 ## Occam's lazor 
-> When presented with completing hypothetical answers to a problem, 
-> one should select the one that makes |the fewest assumptions.
-> from. wikipedia
+> One should select the one that makes the `fewest assumptions` 
+> when presented with completing hypothetical answers to a problem 
+> (wikipedia)
 
 ## Regularization is a major field of ML research
 - Early Stopping
@@ -13,7 +13,7 @@
 - Dataset Augmentation
 - Noise Robustness
 - Sparse Representations
-- Regularization does not affect the model structure. It changes on ly the loss function
+- Regularization does not affect the model structure. It changes only loss function
 
 ## L1 & L2 Regularization
 - To penalize model complexity
@@ -74,7 +74,6 @@ gcloud ml-engine local train \
     --batch_size=30 \
     --learning_rate=0.02
 ~~~
-
 
 ~~~bash
 trainingInput:
