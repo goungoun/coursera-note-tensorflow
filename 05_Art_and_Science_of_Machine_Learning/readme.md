@@ -21,7 +21,7 @@
 - L1 (=featue selection): Diamond shape. Sparsity. Some of the weights end up having the optimal value zero
 - L2 (=weight decay): Circle shape in 2D space
 - We use the square of the L2 norm to simplify calculation of derivatives
-- lamda: simple scala value that allows us to control how much emphasis we want to put on model simplicity over minimizing training error
+- lamda (=regularization rate): simple scala value that allows us to control how much emphasis we want to put on model simplicity over minimizing training error
 
 ## Optimization is a major field of ML research
 - GradientDecent: traditional. typically implented stochastically 
