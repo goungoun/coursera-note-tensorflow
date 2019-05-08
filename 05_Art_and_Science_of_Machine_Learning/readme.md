@@ -22,6 +22,7 @@
 - L2 (=weight decay): Circle shape in 2D space
 - We use the square of the L2 norm to simplify calculation of derivatives
 - lamda (=regularization rate): simple scala value that allows us to control how much emphasis we want to put on model simplicity over minimizing training error
+- [tensorflow playground - L1 vs L2](http://playground.tensorflow.org/#activation=relu&regularization=L2&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.01&regularizationRate=0.1&noise=10&networkShape=6,6&seed=0.96927&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 
 ## Optimization is a major field of ML research
 - GradientDecent: traditional. typically implented stochastically 
