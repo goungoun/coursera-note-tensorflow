@@ -8,7 +8,7 @@ Tensorflow + Data Lab + Big Query
 - 1940s: Perceptron that precursor to neural networks
 - 1960s: Neural Networks
 - 1980s: Decision Trees
-- 1990s: Kernel Method Support Vector Machines(SVMS)
+- 1990s: Kernel Method Support Vector Machines(SVM)
 - 2000s: Random Forests, Boosted Trees
 - 2010s: Neural Networks again
 
