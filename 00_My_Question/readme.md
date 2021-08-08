@@ -19,7 +19,7 @@ Namme the tensors and the operations
 import tensorflow as tf
 
 x = tf.constant([3, 5, 7], name="x")
-y = tf.constant([1, 2, 3], anme="y")
+y = tf.constant([1, 2, 3], name="y")
 z1 = tf.add(x, y, name="z1")
 z2 = x * y
 z3 = z2 - z1
